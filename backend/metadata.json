@@ -1,0 +1,10 @@
+{
+    "architecture": "LSTM",
+    "input_features": 15,
+    "window_size": 60,
+    "forecast_horizon": 7,
+    "target_type": "Raw Price",
+    "best_epoch": 57,
+    "val_loss_mse": 0.00582648441195488,
+    "trained_on": "2026-08-03 22:22"
+}
