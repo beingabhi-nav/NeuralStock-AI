@@ -87,7 +87,7 @@ const AboutUs = () => {
       <section id="aboutcontent">
         <div>
           <div>
-            <img src="/aboutusimgs/nsbuilding.png" alt="NeuralStock Headquarters" />
+            <img src="/nsbuilding.png" alt="NeuralStock Headquarters" />
           </div>
         </div>
 

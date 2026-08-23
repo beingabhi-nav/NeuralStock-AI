@@ -27,7 +27,7 @@ const SwiperCarousel = ( props) => {
     <div id="full-return-div-for-swiper">
 
       <div id="asteriskbox">
-        <img src="public/8spookasterisk.png" alt="" />
+        <img src="/8spookasterisk.png" alt="" />
       </div>
 
       <div id="swiper-box">
@@ -41,7 +41,7 @@ const SwiperCarousel = ( props) => {
               <div className="swiper-slide" onClick={() => { props.setTicker('MSFT'); props.handleRunPipeline('MSFT'); }}>
                 
                 <div className="company">
-                    <div><img src="public/msft.jpg" alt="MSFT" /></div>
+                    <div><img src="/msft.jpg" alt="MSFT" /></div>
                     <div className="companydes">
                         <p className="ticker-sym">MSFT</p>
                         <p className="company-name">Microsoft Corp.</p>
@@ -53,7 +53,7 @@ const SwiperCarousel = ( props) => {
               <div className="swiper-slide" onClick={() => { props.setTicker('CRM'); props.handleRunPipeline('CRM'); }}>
                 
                 <div className="company">
-                    <div><img src="public/salesforce.jpg" alt="CRM" /></div>
+                    <div><img src="/salesforce.jpg" alt="CRM" /></div>
                     <div className="companydes">
                         <p className="ticker-sym">CRM</p>
                         <p className="company-name">Salesforce Inc.</p>
@@ -64,7 +64,7 @@ const SwiperCarousel = ( props) => {
               <div className="swiper-slide" onClick={() => { props.setTicker('JPM'); props.handleRunPipeline('JPM'); }}>
                 
                 <div className="company">
-                    <div><img src="public/jpmorgan.jpg" alt="JPM" /></div>
+                    <div><img src="/jpmorgan.jpg" alt="JPM" /></div>
                     <div className="companydes">
                         <p className="ticker-sym">JPM</p>
                         <p className="company-name">JPMorgan Chase</p>
@@ -85,7 +85,7 @@ const SwiperCarousel = ( props) => {
             <div className="swiper-slide" onClick={() => { props.setTicker('AMZN'); props.handleRunPipeline('AMZN'); }}>
                 
                 <div className="company">
-                    <div><img src="public/amazon.jpg" alt="AMZN"/></div>
+                    <div><img src="/amazon.jpg" alt="AMZN"/></div>
                     <div className="companydes">
                         <p className="ticker-sym">AMZN</p>
                         <p className="company-name">Amazon.com, Inc.</p>
@@ -97,7 +97,7 @@ const SwiperCarousel = ( props) => {
               <div className="swiper-slide" onClick={() => { props.setTicker('GS'); props.handleRunPipeline('GS'); }}>
                 
                 <div className="company">
-                    <div><img src="public/gs.jpg" alt="GS"/></div>
+                    <div><img src="/gs.jpg" alt="GS"/></div>
                     <div className="companydes">
                         <p className="ticker-sym">GS</p>
                         <p className="company-name">Goldman Sachs Group Inc.</p>
@@ -111,7 +111,7 @@ const SwiperCarousel = ( props) => {
               <div className="swiper-slide" onClick={() => { props.setTicker('AXP'); props.handleRunPipeline('AXP'); }}>
                 
                 <div className="company">
-                    <div><img src="public/amex.jpg" alt="AXP" /> </div>
+                    <div><img src="/amex.jpg" alt="AXP" /> </div>
                     <div className="companydes">
                         <p className="ticker-sym">AXP</p>
                         <p className="company-name">American Express Co.</p>
@@ -132,7 +132,7 @@ const SwiperCarousel = ( props) => {
               <div className="swiper-slide" onClick={() => { props.setTicker('TSLA'); props.handleRunPipeline('TSLA'); }}>
                 
                 <div className="company">
-                    <div><img src="public/tesla.jpg" alt="TSLA"/></div>
+                    <div><img src="/tesla.jpg" alt="TSLA"/></div>
                     <div className="companydes">
                         <p className="ticker-sym">TSLA</p>
                         <p className="company-name">Tesla, Inc.</p>
@@ -144,7 +144,7 @@ const SwiperCarousel = ( props) => {
               <div className="swiper-slide" onClick={() => { props.setTicker("GOOGL"); props.handleRunPipeline('GOOGL'); }}>
                 
                 <div className="company">
-                    <div><img src="public/google.jpg" alt="GOOGL" /></div>
+                    <div><img src="/google.jpg" alt="GOOGL" /></div>
                     <div className="companydes">
                         <p className="ticker-sym">GOOGL</p>
                         <p className="company-name">Alphabet Inc.</p>
@@ -156,7 +156,7 @@ const SwiperCarousel = ( props) => {
               <div className="swiper-slide" onClick={() => { props.setTicker("WMT"); props.handleRunPipeline('WMT'); }}>
                 
                 <div className="company">
-                    <div><img src="public/walmart.jpg" alt="WMT" /></div>
+                    <div><img src="/walmart.jpg" alt="WMT" /></div>
                     <div className="companydes">
                         <p className="ticker-sym">WMT</p>
                         <p className="company-name">Walmart</p>

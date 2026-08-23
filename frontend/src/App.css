@@ -126,7 +126,7 @@ body {
   width: 100vw;
   height: 100vh;
 
-  background-image: url(public/gradient4.jpeg);
+  background-image: url(/gradient4.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:top 0px left 0px;
@@ -458,7 +458,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-image: url(public/starrynight.jpg);
+  background-image: url(/starrynight.jpg);
 
   padding: 4.5rem 0  0 0;
 }
@@ -507,7 +507,7 @@ body {
 .supreme-box{
   margin: 4.5rem 0 0 0;
   padding: 1.5rem 0  0 0;
-  background-image: url(public/starrynight.jpg);
+  background-image: url(/starrynight.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:top 0px left 0px;
@@ -1017,7 +1017,7 @@ button:disabled {
 #aboutusheader{
   width: 100vw;
   height: 40vh;
-  background-image: url(public/aboutusimgs/skyline2.png);
+  background-image: url(/skyline2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:top -60px left 0px ;
@@ -1111,7 +1111,7 @@ button:disabled {
 #contactheader{
   width: 100vw;
   height: 35vh;
-  background-image: url(public/contactimgs/bokeh.jpg);
+  background-image: url(/bokeh.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:top -460px left 0px ;

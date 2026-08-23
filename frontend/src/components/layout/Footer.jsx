@@ -20,19 +20,19 @@ const Footer = () => {
           <div id="socialmediaicons">
                     
             <div>
-                <a href="https://www.instagram.com"><img src="public/instalogo.png" alt=""/></a>
+                <a href="https://www.instagram.com"><img src="/instalogo.png" alt=""/></a>
             </div>
             <div>
-                <a href="https://www.facebook.com"><img src="public/fblogo.png" alt=""/></a>
+                <a href="https://www.facebook.com"><img src="/fblogo.png" alt=""/></a>
             </div>
             <div>
-                <a href="https://x.com"><img src="public/twitterlogo.png" alt=""/></a>
+                <a href="https://x.com"><img src="/twitterlogo.png" alt=""/></a>
             </div>
             <div>
-                <a href="https://www.pinterest.com"><img src="public/pinterestlogo.png" alt=""/></a>
+                <a href="https://www.pinterest.com"><img src="/pinterestlogo.png" alt=""/></a>
             </div>
             <div>
-                <a href="https://www.youtube.com"><img src="public/youtubelogo.png" alt=""/></a>
+                <a href="https://www.youtube.com"><img src="/youtubelogo.png" alt=""/></a>
             </div>
           </div>    
         </div>
@@ -58,8 +58,8 @@ const Footer = () => {
           <div><span>Install App</span></div>
           <div>From App Store or Google Play</div>
           <div id="wheretofindapp">
-              <div><a href="#"><img src="public/getitongplay.jpg" alt="Play Store"/></a></div>
-              <div><a href="#"><img src="public/getitonappstore.jpg" alt="App Store"/></a></div>
+              <div><a href="#"><img src="/getitongplay.jpg" alt="Play Store"/></a></div>
+              <div><a href="#"><img src="/getitonappstore.jpg" alt="App Store"/></a></div>
           </div>
         </div>
       </section>

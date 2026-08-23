@@ -61,7 +61,7 @@ const Contact = () => {
           <div id="contactinformationtext">
             <div>
               <div>
-                <img src="/contactimgs/location.png" alt="Location Icon" />
+                <img src="/location.png" alt="Location Icon" />
               </div>
               <div>
                 <div>Address:</div>
@@ -71,7 +71,7 @@ const Contact = () => {
 
             <div>
               <div>
-                <img src="/contactimgs/callicon.jpg" alt="Phone Icon" />
+                <img src="/callicon.jpg" alt="Phone Icon" />
               </div>
               <div>
                 <div>Phone:</div>
@@ -81,7 +81,7 @@ const Contact = () => {
 
             <div>
               <div>
-                <img src="/contactimgs/finalhoursicon.png" alt="Hours Icon" />
+                <img src="/finalhoursicon.png" alt="Hours Icon" />
               </div>
               <div>
                 <div>Hours:</div>
