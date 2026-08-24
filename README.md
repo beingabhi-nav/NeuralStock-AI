@@ -1,5 +1,7 @@
 # NeuralStock AI
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Website-blue?style=for-the-badge)](https://neural-stock-ai-ten.vercel.app/)
+
 **NeuralStock AI** is an intelligent financial forecasting platform that leverages machine learning to predict stock price trajectories. Built with a React frontend and a FastAPI backend, it utilizes Long Short-Term Memory (LSTM) neural networks to analyze historical market data and technical indicators, generating a 7-day forward price forecast with calculated confidence intervals.
 
 ## Technology Stack
