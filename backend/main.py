@@ -38,11 +38,25 @@ def predict_next_day(ticker: str = "AAPL"):
     scaled_features, scaled_target, t_scaler, raw_df = get_stock_data(ticker, "6mo")
     
     stock = yf.Ticker(ticker)
-    info = stock.info
+    
+    # Safe info fetch with automatic fallback if rate-limited
     try:
-        news_data = stock.news[:3] if hasattr(stock, 'news') else []
-    except:
-        news_data = []
+        info = stock.info
+    except Exception as e:
+        print(f"Info fetch warning (rate-limited): {e}")
+        try:
+            fast = stock.fast_info
+            info = {
+                "shortName": ticker.upper(),
+                "exchange": getattr(fast, "exchange", "N/A"),
+                "sector": "Technology",
+                "open": getattr(fast, "open", float(raw_df.iloc[-1]['Open'].item())),
+                "dayHigh": getattr(fast, "day_high", float(raw_df.iloc[-1]['High'].item())),
+                "dayLow": getattr(fast, "day_low", float(raw_df.iloc[-1]['Low'].item())),
+                "volume": getattr(fast, "last_volume", int(raw_df.iloc[-1]['Volume'].item()))
+            }
+        except Exception:
+            info = {}
 
     current_actual = float(raw_df.iloc[-1]['Close'].item())
     
