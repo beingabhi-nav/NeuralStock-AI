@@ -34,18 +34,12 @@ cd backend
 Mac/Linux: 
 ```bash
 python3 -m venv venv
-```
-&&
-```bash
 source venv/bin/activate
 ```
 
 Windows: 
 ```bash
 python -m venv venv 
-```
-&& 
-```bash
 venv\Scripts\activate
 ```
 #### Install the required dependencies and start the local server:
